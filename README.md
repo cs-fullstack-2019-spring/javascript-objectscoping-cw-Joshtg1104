@@ -19,6 +19,10 @@
   
   console.log(test());
   ```
+  answer: It will print Aurelio De Rosa and John Doe skipping Colin Thrig because
+  Aurelio De Rosa overwrites Colin Thrig. let may have prevented this from
+  happening if it were used on obj instead of var but that is just a guess.
+  John Doe gets printed because it is in the global scope.
 
 2. What will you see in the console for the following example?
   ```
@@ -31,6 +35,8 @@
   b(); 
   console.log(a);    
   ```
+  answer: 10
+  
 
 * Create an array called ```peopleList``` objects using *Object Literal* notation. 
 
